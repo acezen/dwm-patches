@@ -1,0 +1,15 @@
+Index: dwm-pathches/dwm/dwm.c
+===================================================================
+--- dwm-pathches.orig/dwm/dwm.c
++++ dwm-pathches/dwm/dwm.c
+@@ -249,7 +249,9 @@ static void (*handler[LASTEvent]) (XEven
+ 	[ConfigureRequest] = configurerequest,
+ 	[ConfigureNotify] = configurenotify,
+ 	[DestroyNotify] = destroynotify,
+-	[EnterNotify] = enternotify,
++	#if 0 /* disable focus follows mouse behaviour */
++		[EnterNotify] = enternotify,
++	#endif
+ 	[Expose] = expose,
+ 	[FocusIn] = focusin,
+ 	[KeyPress] = keypress,
