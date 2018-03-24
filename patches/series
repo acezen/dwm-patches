@@ -2,3 +2,4 @@ personal_configh.patch
 disable_focus_mouse.patch
 pertag.patch
 attachaside.patch
+single_window_no_border.patch
