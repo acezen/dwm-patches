@@ -3,3 +3,5 @@ disable_focus_mouse.patch
 pertag.patch
 attachaside.patch
 single_window_no_border.patch
+configh_shifttags.patch
+shifttags.patch
