@@ -1,7 +1,7 @@
-Index: dwm-pathches/dwm/dwm.c
+Index: dwm-pahches/dwm/dwm.c
 ===================================================================
---- dwm-pathches.orig/dwm/dwm.c
-+++ dwm-pathches/dwm/dwm.c
+--- dwm-patches.orig/dwm/dwm.c
++++ dwm-patches/dwm/dwm.c
 @@ -49,7 +49,8 @@
  #define CLEANMASK(mask)         (mask & ~(numlockmask|LockMask) & (ShiftMask|ControlMask|Mod1Mask|Mod2Mask|Mod3Mask|Mod4Mask|Mod5Mask))
  #define INTERSECT(x,y,w,h,m)    (MAX(0, MIN((x)+(w),(m)->wx+(m)->ww) - MAX((x),(m)->wx)) \
