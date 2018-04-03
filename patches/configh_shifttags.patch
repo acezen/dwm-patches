@@ -15,8 +15,8 @@ Index: dwm-patches/dwm/config.def.h
  	{ 0,                       0x1008ff13,     spawn,          {.v = volumeup } },
  	{ 0,                       0x1008ff11,     spawn,          {.v = volumedown } },
  	{ 0,                       0x1008ff12,     spawn,          {.v = volumemute } },
-+	{ MODKEY,                       XK_Left,   shifttags,      {.i = -1} },
-+	{ MODKEY,                       XK_Right,  shifttags,      {.i = +1} },
++	{ MODKEY|ShiftMask,             XK_j,      shifttags,      {.i = -1} },
++	{ MODKEY|ShiftMask,             XK_k,      shifttags,      {.i = +1} },
  };
  
  /* button definitions */
