@@ -1,2 +1,5 @@
 #!/bin/sh
+# install dmenu
+# install networkmenage-dmenu
+# install slock
 cd "$(dirname "$0")" && ./build && cd dwm && make PREFIX=~/.local install
